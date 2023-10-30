@@ -1,6 +1,6 @@
 # SDS-Brightics
 
-## Smart Factory Semiconductor Process Optimization
+## Smart Factory Semiconductor Process Optimization (Personal Project)
 #### **Background and Objectives**
 - The objective of this project was to enhance anomaly detection performance in a smart factory setting, specifically focusing on optimizing semiconductor manufacturing processes.
 - The goal was to identify and predict defective products, thereby improving overall product quality.
@@ -25,6 +25,7 @@
 #### **Conclusion**
 - This project achieved successful detection and prediction of defects in a smart factory environment. It is anticipated that these findings will significantly contribute to future optimization efforts in the manufacturing process.
 
+**remark** : https://www.brightics.ai/community/knowledge-sharing/detail/7098
 
 ## Medical_Cost_Prediction
 #### **Title:** Predicting Personal Medical Expenses (Insurance) Project
@@ -51,7 +52,6 @@
 - Select an evaluation metric (MAE, MSE, RMSE, MAPE) to calculate scores and choose the best-performing model.  
 
 Data Source: Utilize the 'Medical Cost Personal Datasets' from Kaggle's Open DataSet.  
-Medical Cost Personal Datasets | Kaggle  
 
 ## Weather Conditions
 
