@@ -9,8 +9,8 @@ Aerial Bombing Operations of World War Two 데이터셋을 기반으로, 2차 �
 기후 정보 (Weather):|STA: 날씨 관측소 코드|Date: 날짜|Max Temp: 최대 기온|MeanTemp: 평균 기온|Min Temp: 최소 기온
 
 |데이터셋|WBAN|NAME|STATE/COUNTRY ID|LAT/Latitude|LON/Longitude|ELEV|
-|------|---|---|---|---|---|---|
-|Weather station location: | Weather Station Number| Weather Station Name | Location |Latitude as a string / number |Longitude as a string / number |Note that an elevation of 9999 means unknown|
+|------|:-----:|:-----:|:----:|:----:|:----:|:----:|
+|Weather station location| Weather Station Number| Weather Station Name | Location |Latitude as a string / number |Longitude as a string / number |Note that an elevation of 9999 means unknown|
 
 
 ㅗ
