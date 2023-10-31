@@ -55,9 +55,12 @@ Data Source: Utilize the 'Medical Cost Personal Datasets' from Kaggle's Open Dat
 
 ## Weather Conditions
 
-#### Main Objective: The goal is to investigate the impact of weather data on the postponement of D-DAY during World War II through data analysis and identify stable time periods.
-#### Data Introduction: The analysis utilizes the Aerial Bombing Operations of World War Two dataset, consisting of key columns such as weather observation locations, climate information, dates, maximum temperature, mean temperature, and minimum temperature.
-#### Analytical Techniques: Primarily, time series data was analyzed using Moving Average (MA) and Exponentially Weighted Moving Average (EWMA) models, applied using Brightics Studio.
+#### Main Objective
+- The goal is to investigate the impact of weather data on the postponement of D-DAY during World War II through data analysis and identify stable time periods.
+#### Data Introduction
+- The analysis utilizes the Aerial Bombing Operations of World War Two dataset, consisting of key columns such as weather observation locations, climate information, dates, maximum temperature, mean temperature, and minimum temperature.
+#### Analytical Techniques
+- Primarily, time series data was analyzed using Moving Average (MA) and Exponentially Weighted Moving Average (EWMA) models, applied using Brightics Studio.
 
 #### Analysis Steps:
 
