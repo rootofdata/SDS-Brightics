@@ -8,12 +8,12 @@ Aerial Bombing Operations of World War Two 데이터셋을 기반으로, 2차 �
 |DATA SET 1|WBAN|NAME|STATE|LAT/Latitude|LON/Longitude|ELEV|
 |------|:-----:|:-----:|:----:|:----:|:----:|:----:|
 |Weather station location|Weather Station Number|Weather Station Name|Location|Latitude as a string/number|Longitude as a string/number|Note that an elevation of 9999 means unknown|
-|관측 장소 코드|관측 장소 이름 (Seoul 등)|주/나라 ID|위도|경도|고도|
+|관측 장소|관측 장소 코드|관측 장소 이름 (Seoul 등)|주/나라 ID|위도|경도|고도|
 
 |DATA SET 2|STA|Date|Max Temp|MeanTemp|Min Temp|
 |------|:-----:|:-----:|:----:|:----:|:----:|
 |Weather|Weather Station| Self-explantory|Max temperature|Mean temperature|Min temperature |
-|관측 장소 코드|날짜|최대 기온|평균 기온|최소 기온|
+|날씨 데이터|관측 장소 코드|날짜|최대 기온|평균 기온|최소 기온|
 
 2. 기법 소개
 이 프로젝트에서는 이동평균(MA) 및 지수가중이동평균(EWMA) 모델을 사용하여 시계열 데이터를 분석하고자 합니다.
