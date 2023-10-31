@@ -5,17 +5,15 @@ Aerial Bombing Operations of World War Two 데이터셋을 기반으로, 2차 �
 1.2 데이터 설명
 데이터는 날씨 관측 위치와 날짜별 관측된 기후 정보로 구성되어 있습니다. 주요 컬럼은 다음과 같습니다:
 
-날씨 관측 위치 (Weather station location)| WBAN: 날씨 관측소 번호 | NAME: 날씨 관측소 이름 | STATE/COUNTRY ID: 위치 (주/나라 ID) |LAT/LON: 위도 및 경도|ELEV: 고도
-기후 정보 (Weather):|STA: 날씨 관측소 코드|Date: 날짜|Max Temp: 최대 기온|MeanTemp: 평균 기온|Min Temp: 최소 기온
-
-|DATA SET 1|WBAN|NAME|COUNTRY ID|LAT/Latitude|LON/Longitude|ELEV|
+|DATA SET 1|WBAN|NAME|STATE|LAT/Latitude|LON/Longitude|ELEV|
 |------|:-----:|:-----:|:----:|:----:|:----:|:----:|
-|Weather station location| Weather Station Number| Weather Station Name | Location |Latitude as a string / number |Longitude as a string / number |Note that an elevation of 9999 means unknown|
+|Weather station location|Weather Station Number|Weather Station Name|Location|Latitude as a string/number|Longitude as a string/number|Note that an elevation of 9999 means unknown|
+|관측 장소 코드|관측 장소 이름 (Seoul 등)|주/나라 ID|위도|경도|고도|
 
-|DATA SET 1|STA|Date|Max Temp|MeanTemp|Min Temp|
+|DATA SET 2|STA|Date|Max Temp|MeanTemp|Min Temp|
 |------|:-----:|:-----:|:----:|:----:|:----:|
-|Weather |Weather Station | Self-explantory |Max temperature |Mean temperature |Min temperature |
-
+|Weather|Weather Station| Self-explantory|Max temperature|Mean temperature|Min temperature |
+|관측 장소 코드|날짜|최대 기온|평균 기온|최소 기온|
 
 2. 기법 소개
 이 프로젝트에서는 이동평균(MA) 및 지수가중이동평균(EWMA) 모델을 사용하여 시계열 데이터를 분석하고자 합니다.
