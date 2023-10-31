@@ -1,6 +1,6 @@
 # SDS-Brightics
 
-## Smart Factory Semiconductor Process Optimization (Personal Project)
+## [Smart Factory Semiconductor Process Optimization](https://github.com/rootofdata/SDS-Brightics/blob/main/Semiconductor%20optimization/README.md)
 #### **Background and Objectives**
 - The objective of this project was to enhance anomaly detection performance in a smart factory setting, specifically focusing on optimizing semiconductor manufacturing processes.
 - The goal was to identify and predict defective products, thereby improving overall product quality.
@@ -53,7 +53,7 @@
 
 Data Source: Utilize the 'Medical Cost Personal Datasets' from Kaggle's Open DataSet.  
 
-## Weather Conditions
+## [Weather Conditions](https://github.com/rootofdata/SDS-Brightics/blob/main/Weather%20Conditions/README.md)
 
 #### Main Objective
 - The goal is to investigate the impact of weather data on the postponement of D-DAY during World War II through data analysis and identify stable time periods.
@@ -76,6 +76,8 @@ Data Source: Utilize the 'Medical Cost Personal Datasets' from Kaggle's Open Dat
 
 #### Conclusion
 - Based on the analysis results, future temperature predictions and strategic planning can be conducted, facilitating informed decision-making.
+
+## Financial Fraud Analysis [https://github.com/rootofdata/SDS-Brightics/blob/main/Financial%20Fraud%20Analysis/README.md]
 
 ## solar-wind
 - KETI 지속가능한 에너지 활용을 위한 인공지능 경진대회
