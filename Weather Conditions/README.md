@@ -8,13 +8,13 @@ Aerial Bombing Operations of World War Two 데이터셋을 기반으로, 2차 �
 날씨 관측 위치 (Weather station location)| WBAN: 날씨 관측소 번호 | NAME: 날씨 관측소 이름 | STATE/COUNTRY ID: 위치 (주/나라 ID) |LAT/LON: 위도 및 경도|ELEV: 고도
 기후 정보 (Weather):|STA: 날씨 관측소 코드|Date: 날짜|Max Temp: 최대 기온|MeanTemp: 평균 기온|Min Temp: 최소 기온
 
-|데이터셋|WBAN|NAME|STATE/COUNTRY ID|LAT/Latitude|LON/Longitude|ELEV|
+|DATA SET 1|WBAN|NAME|COUNTRY ID|LAT/Latitude|LON/Longitude|ELEV|
 |------|:-----:|:-----:|:----:|:----:|:----:|:----:|
 |Weather station location| Weather Station Number| Weather Station Name | Location |Latitude as a string / number |Longitude as a string / number |Note that an elevation of 9999 means unknown|
 
-
-ㅗ
-|Weather | STA: Weather Station | Date: Self-explantory | Max Temp: Max temperature | MeanTemp: Mean temperature | Min Temp: Min temperature |-|
+|DATA SET 1|STA|Date|Max Temp|MeanTemp|Min Temp|
+|------|:-----:|:-----:|:----:|:----:|:----:|
+|Weather |Weather Station | Self-explantory |Max temperature |Mean temperature |Min temperature |
 
 
 2. 기법 소개
