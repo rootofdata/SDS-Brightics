@@ -78,3 +78,4 @@ Data Source: Utilize the 'Medical Cost Personal Datasets' from Kaggle's Open Dat
 - Based on the analysis results, future temperature predictions and strategic planning can be conducted, facilitating informed decision-making.
 
 ## solar-wind
+- KETI 지속가능한 에너지 활용을 위한 인공지능 경진대회
