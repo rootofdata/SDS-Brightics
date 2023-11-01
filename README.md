@@ -96,7 +96,7 @@ Data Source: Utilize the 'Medical Cost Personal Datasets' from Kaggle's Open Dat
 - Based on the analysis results, future temperature predictions and strategic planning can be conducted, facilitating informed decision-making.
 
 
-## [Financial Fraud Analysis] (https://github.com/rootofdata/SDS-Brightics/blob/main/Financial%20Fraud%20Analysis/README.md)
+## [Financial Fraud Analysis](https://github.com/rootofdata/SDS-Brightics/blob/main/Financial%20Fraud%20Analysis/README.md)
 
 ## solar-wind
 
