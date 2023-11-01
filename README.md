@@ -75,10 +75,10 @@ Data Source: Utilize the 'Medical Cost Personal Datasets' from Kaggle's Open Dat
 - Primarily, time series data was analyzed using Moving Average (MA) and Exponentially Weighted Moving Average (EWMA) models, applied using Brightics Studio.
 
 #### Modeling Approaches:
-Moving Average (MA) and Exponentially Weighted Moving Average (EWMA) Models:
+##### Moving Average (MA) and Exponentially Weighted Moving Average (EWMA) Models:
 - MA and EWMA models were implemented to analyze the time series data. EWMA, with its adaptive nature to recent variations, showcased superior accuracy. A comparative analysis of MA and EWMA models highlighted the latter’s effectiveness in capturing historical weather trends.
 
-#### ARIMA and Holt-Winters Models:
+##### ARIMA and Holt-Winters Models:
 - ARIMA models were manually configured, but the process revealed the need for parameter tuning to improve performance.
 - Auto ARIMA, although an improvement, fell short compared to the Holt-Winters model.
 - The Holt-Winters model, leveraging its ability to capture trends and seasonality, emerged as the most suitable choice.
