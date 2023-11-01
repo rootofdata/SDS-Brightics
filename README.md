@@ -96,7 +96,35 @@ Data Source: Utilize the 'Medical Cost Personal Datasets' from Kaggle's Open Dat
 - Based on the analysis results, future temperature predictions and strategic planning can be conducted, facilitating informed decision-making.
 
 
-## Financial Fraud Analysis [https://github.com/rootofdata/SDS-Brightics/blob/main/Financial%20Fraud%20Analysis/README.md]
+## [Financial Fraud Analysis] (https://github.com/rootofdata/SDS-Brightics/blob/main/Financial%20Fraud%20Analysis/README.md)
 
 ## solar-wind
-- KETI 지속가능한 에너지 활용을 위한 인공지능 경진대회
+
+### Solar Power Forecasting:
+#### Forecast Data (solar_forecast_weather):
+- Forecast Period: 20-09-01 11:00 ~ 22-07-01 8:00 (1-hour intervals)
+- Predicted solar power generation for hours after the forecast time
+
+#### Solar Power Generation Data (solar_power_2204):
+- Measurement Period: 20-09-10 0:00 ~ 22-04-30 23:50 (10-minute intervals)
+- Actual solar power generation data
+
+#### Weather Observation Data (weather_solar_actual):
+- Measurement Point: 112 (Incheon)
+- Measurement Period: 20-09-01 0:00 ~ 22-06-30 23:00 (1-hour intervals)
+- Includes temperature, wind speed, wind direction, and humidity information
+
+### Wind Power Forecasting:
+#### Forecast Data (wind_forecast_weather):
+- Forecast Period: 20-09-01 11:00 ~ 22-07-01 8:00 (1-hour intervals)
+- Predicted wind power generation for hours after the forecast time
+
+#### Wind Power Generation Data (wind_2204):
+- Measurement Period: 20-09-10 0:00 ~ 22-04-30 23:50 (10-minute intervals)
+- Actual wind power generation data
+
+#### Weather Observation Data (weather_wind_actual):
+- Measurement Point: 156 (Gwangju)
+- Measurement Period: 20-09-01 0:00 ~ 22-06-30 23:00 (1-hour intervals)
+- Includes temperature, wind speed, wind direction, and humidity information
+![Untitled (53)](https://github.com/rootofdata/SDS-Brightics/assets/86711374/1c8f0038-f92f-434f-aeec-3e967555c434)
