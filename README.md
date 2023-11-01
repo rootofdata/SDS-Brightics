@@ -55,27 +55,46 @@ Data Source: Utilize the 'Medical Cost Personal Datasets' from Kaggle's Open Dat
 
 ## [Weather Conditions](https://github.com/rootofdata/SDS-Brightics/blob/main/Weather%20Conditions/README.md)
 
+#### The goal is to investigate the impact of weather data on the postponement of D-DAY during World War II through data analysis and identify stable time periods.
 #### Main Objective
-- The goal is to investigate the impact of weather data on the postponement of D-DAY during World War II through data analysis and identify stable time periods.
-#### Data Introduction
-- The analysis utilizes the Aerial Bombing Operations of World War Two dataset, consisting of key columns such as weather observation locations, climate information, dates, maximum temperature, mean temperature, and minimum temperature.
+- The objective of this project was to analyze weather data sourced from the 'Aerial Bombing Operations of World War Two' dataset.
+- The focus was on weather station locations and climate information recorded on specific dates.
+- By employing various statistical techniques and time series models, the project aimed to gain insights into historical weather patterns and predict future temperatures.
+- The analysis holds significance in identifying stable time periods unaffected by World War Two aerial bombing operations, enabling strategic planning based on weather conditions.
+
+### Analysis Steps:
+#### Data Preprocessing:
+- The initial step involved meticulous data preprocessing.
+- The dataset was loaded and carefully cleaned, addressing missing values to ensure the reliability of subsequent analyses.
+- Visualizations were employed to explore data characteristics, with a specific focus on data related to Seoul, providing a localized perspective.
+
+#### Statistical Testing:
+- **Unit Root Test:** Unit root tests were conducted to confirm the stationarity of the data.
+- **ACF:** Autocorrelation analysis was employed to understand the data's autocorrelation structure, providing valuable insights into its behavior over time.
 #### Analytical Techniques
 - Primarily, time series data was analyzed using Moving Average (MA) and Exponentially Weighted Moving Average (EWMA) models, applied using Brightics Studio.
 
-#### Analysis Steps:
+#### Modeling Approaches:
+Moving Average (MA) and Exponentially Weighted Moving Average (EWMA) Models:
+- MA and EWMA models were implemented to analyze the time series data. EWMA, with its adaptive nature to recent variations, showcased superior accuracy. A comparative analysis of MA and EWMA models highlighted the latter’s effectiveness in capturing historical weather trends.
 
-- **Initial Data Exploration:** Data was loaded, missing values were handled, and visualization was employed to understand its characteristics.
-- **Unit Root Test:** Unit root tests were conducted to confirm the stationarity of the data.
-- **Moving Average and Exponentially Weighted Moving Average Model Creation:** Both models were generated and evaluated using metrics like MAPE and MSE. A comparison of the results led to the selection of the final model.
-- **Results and Evaluation:** The outcomes of both models were compared, and the final model was chosen based on metrics. Future temperature predictions and identification of stable time periods were made using this model.
-- **MA vs. EWMA Model Comparison:** MAPE and RMSE were utilized for model comparison. Visual comparison confirmed that EWMA provided more accurate predictions.
-- **Autocorrelation (ACF) Analysis:** ACF was used to analyze the correlation in time series data and identify the order of the Moving Average (MA) component.
-- **Data Preprocessing:** Differencing was applied to achieve stationarity. ARIMA and Auto ARIMA models were then used for predictions.
-- **Holt-Winters Model:** Holt-Winters exponential smoothing was employed for modeling, and the model's performance was evaluated.
-- **Model Evaluation Metrics:** RMSE and MAPE were calculated for ARIMA, Auto ARIMA, and Holt-Winters models.
+#### ARIMA and Holt-Winters Models:
+- ARIMA models were manually configured, but the process revealed the need for parameter tuning to improve performance.
+- Auto ARIMA, although an improvement, fell short compared to the Holt-Winters model.
+- The Holt-Winters model, leveraging its ability to capture trends and seasonality, emerged as the most suitable choice.
 
-#### Conclusion
+#### Analysis and Results:
+- Comparative metrics such as Root Mean Square Error (RMSE) and Mean Absolute Percentage Error (MAPE) were employed to assess model performance.
+- The Holt-Winters model demonstrated remarkable accuracy, outperforming other models. 
+- Its ability to predict future temperatures accurately makes it invaluable for strategic planning, allowing stakeholders to identify stable time periods unaffected by historical events.
+
+#### Conclusion and Implications:
+- In conclusion, the comprehensive analysis of weather data from World War Two aerial bombing operations provides valuable insights into historical weather patterns.
+- The Holt-Winters model, identified as the most accurate, equips decision-makers with a powerful tool for predicting future temperatures.
+- This knowledge is instrumental in strategic planning, enabling the identification of stable time periods for various activities.
+- The implications are vast, ranging from agricultural planning to urban development, ensuring decisions are informed by historical weather trends, enhancing their efficacy and resilience.
 - Based on the analysis results, future temperature predictions and strategic planning can be conducted, facilitating informed decision-making.
+
 
 ## Financial Fraud Analysis [https://github.com/rootofdata/SDS-Brightics/blob/main/Financial%20Fraud%20Analysis/README.md]
 
