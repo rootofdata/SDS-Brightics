@@ -49,13 +49,24 @@
 ### **3. ARIMA 모델**
 - ARIMA 모델을 수동으로 구성하여 평가, AR=1, 차분=1, MA=1로 설정
 - AIC 값이 높아 다양한 전처리와 파라미터 튜닝이 필요함을 확인
+<p align="center">
+ <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/54382adb-f775-496b-bf16-00ffe575fb78",width="400" height="250/">
+</p>  
+
 - Auto ARIMA 모델을 사용하여 자동으로 최적의 파라미터를 결정하고 예측을 수행
 - ARIMA 모델보다 더 높은 AIC 값을 보였으나, 실제 예측값과 실제 값이 비교적 유사한 것을 확인
+<p align="center">
+ <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/c8d4cafe-f5d9-42b2-9106-f68e8091486c",width="400" height="250/">
+</p>  
 
 ### **4. Holt-Winters 모델링**
 - Holt-Winters 지수 평활법을 사용하여 시계열 데이터를 모델링하고 예측. 승법적 모델과 가법적 모델 중 선택하여 모델을 생성
 - AIC 값이 매우 낮아 모델이 데이터에 잘 적합됨을 확인
 - Holt-Winters 모델로 예측한 결과를 실제 값과 비교하여 시각화
+
+<p align="center">
+ <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/63c67bf9-c2ac-4546-a0fe-3dec71588470",width="400" height="250/">
+</p>  
 
 ## 분석 결과
 
@@ -78,6 +89,6 @@
 - 각 모델의 장단점을 고려하여 Holt-Winters 모델이 이 데이터에 가장 적합한 모델임을 확인하였습니다.
 
 ## **결론**
-- 분석을 통해 선정된 최종 모델을 기반으로 향후 기간의 기온을 예측할 수 있음다. 이를 통해 2차 세계 대전 공중 폭격 작전의 영향을 받지 않는 안정적인 시간대를 식별.
+- 분석을 통해 선정된 최종 모델을 기반으로 향후 기간의 기온을 예측할 수 있음. 이를 통해 2차 세계 대전 공중 폭격 작전의 영향을 받지 않는 안정적인 시간대를 식별.
 - 분석 결과를 토대로 미래 기온을 예측하고 전략을 수립할 수 있을 것으로 기대됨.
 
