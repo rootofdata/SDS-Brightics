@@ -50,13 +50,13 @@
 - ARIMA 모델을 수동으로 구성하여 평가, AR=1, 차분=1, MA=1로 설정
 - AIC 값이 높아 다양한 전처리와 파라미터 튜닝이 필요함을 확인
 <p align="center">
- <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/54382adb-f775-496b-bf16-00ffe575fb78",width="200" height="250/">
+ <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/54382adb-f775-496b-bf16-00ffe575fb78",width="100" height="250/">
 </p>  
 
 - Auto ARIMA 모델을 사용하여 자동으로 최적의 파라미터를 결정하고 예측을 수행
 - ARIMA 모델보다 더 높은 AIC 값을 보였으나, 실제 예측값과 실제 값이 비교적 유사한 것을 확인
 <p align="center">
- <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/c8d4cafe-f5d9-42b2-9106-f68e8091486c",width="200" height="250/">
+ <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/c8d4cafe-f5d9-42b2-9106-f68e8091486c",width="100" height="250/">
 </p>  
 
 ### **4. Holt-Winters 모델링**
