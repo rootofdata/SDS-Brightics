@@ -16,10 +16,10 @@ https://www.youtube.com/watch?v=PCwi6EhicE0
 
 ### 1.2 알고리즘 개요
 ![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/af5fdc8f-d144-45c9-94a6-1c445396e562)  
-<그림2. 누진제 기반 요금제 도식 설명>
+<그림. 누진제 기반 요금제 도식 설명>
 
 ![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/c47b8419-03be-4415-87f4-9beb6e1d1e3f)  
-< 그림3. 누진제 기반 요금제 알고리즘 >
+< 그림. 누진제 기반 요금제 알고리즘 >
 
 #### 1.2.1 id별 잉여전력량 및 생산 시간대의 SMP 매칭하여 저장
 - 잉여전력은 1일을 기준으로 계산한다. 생산한 전력을 자신이 모두 쓰고 남은 전력을 잉여전력으로 정의하여, '잉여전력량(remain) = 생산량(generation) - 소비량(consumption)'으로 계산한다. 
