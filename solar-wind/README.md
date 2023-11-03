@@ -12,10 +12,10 @@
 - 이를 보완하기 위해 판매자의 참여조건으로 잉여전력량의 10%는 SMP 가격으로 국가에 반납한다. 전력소비량이 적은 가정을 선정하여 보상제도 또는 소외계층을 위한 복지전력으로 활용해 거래의 다양한 용도와 범위를 넓힌다.
 
 ### 1.2 알고리즘 개요
-![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/af5fdc8f-d144-45c9-94a6-1c445396e562)
+![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/af5fdc8f-d144-45c9-94a6-1c445396e562)  
 <그림2. 누진제 기반 요금제 도식 설명>
 
-![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/c47b8419-03be-4415-87f4-9beb6e1d1e3f)
+![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/c47b8419-03be-4415-87f4-9beb6e1d1e3f)  
 < 그림3. 누진제 기반 요금제 알고리즘 >
 
 #### 1.2.1 id별 잉여전력량 및 생산 시간대의 SMP 매칭하여 저장
@@ -35,7 +35,7 @@
 - SMP는 잉여전력의 해당 시간대 가격으로 판매자로부터 비롯된 기준이다.
 - PW는 소비자의 사용전력량에 따른 누진제의 단위당 요금이다. 두 값의 평균을 구한다. 특히, PW를 고려하며 다음과 같은 이점을 얻는다.
 - PW는 사용전력량에 따라 요금을 다르게 두어 책임을 부과하는 누진제의 방식에서 비롯된다.
-![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/4fca742d-8ebe-41a4-a049-8339c9d47d58)
+![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/4fca742d-8ebe-41a4-a049-8339c9d47d58)  
 < 그림. 전력소비 예측 Brightics 그래프 (과거데이터로 각 id 마다 미래(주황색) 예측)>
 
 ## 2. 계시별 요금제 기반(Time Of Use; TOU)
@@ -43,7 +43,7 @@
 - 프로슈머와 컨슈머 간의 P2P 전력거래를 가능케 하는 비즈니스 모델을 기반으로 한다.
 
 ### 2.1 주요 아이디어와 기능
-![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/86ac5fc9-b63d-4d34-bd1d-47340660889a)
+![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/86ac5fc9-b63d-4d34-bd1d-47340660889a)  
 < 그림. P2P 전력거래 비즈니스 모델 >
 
 #### 2.1.1 계시별 요금제 기반의 전력요금 부과
@@ -72,8 +72,12 @@
 - 컨슈머는 거래 요청을 보내고, 프로슈머가 설정한 가격과 거래량을 고려하여 거래를 요청한다.
 - 프로슈머는 거래 요청을 수락하거나 거절하고, 거래가 성사된 경우 프로슈머는 이익을 얻고, 컨슈머는 저렴한 가격에 전력을 구매한다.
 - 남은 소비량이 있는 경우 해당 부분에 대한 전기요금을 계산하여 부과한다.
-![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/b44ad021-c7f9-4592-b0ab-ee7f52b57d78)
-
+![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/bf3c3dbb-007b-4c0f-9fad-34e45c7c92e3)
+<그림. TOU 기반 요금 상계할 때 알고리즘>
+![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/3c01cd8b-ed6f-4734-8ef1-f96a5dfae86e)
+< 그림. TOU 기반 P2P 전력거래 알고리즘 >
+![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/1f4aba28-7043-4172-bcd0-96f45a872da9)  
+< 그림. TOU 기반 P2P 전력거래 전기요금 알고리즘 >
 ### 2.3 결론
 - 이 시스템은 계시별 요금제와 P2P 전력거래를 통해 전기 시장의 효율성을 높이고 친환경적인 전력 소비를 촉진하는 혁신적인 방안을 제시하고 있다. 
 - 사용자에게는 전력 요금을 절약할 수 있는 기회를 제공하며, 친환경 에너지 사용을 촉진함으로써 지속 가능한 에너지 시스템을 구축하는데 기여할 수 있다.
