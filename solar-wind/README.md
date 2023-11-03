@@ -13,7 +13,10 @@
 
 ### 1.2 알고리즘 개요
 ![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/af5fdc8f-d144-45c9-94a6-1c445396e562)
+<그림2. 누진제 기반 요금제 도식 설명>
+
 ![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/c47b8419-03be-4415-87f4-9beb6e1d1e3f)
+< 그림3. 누진제 기반 요금제 알고리즘 >
 
 #### 1.2.1 id별 잉여전력량 및 생산 시간대의 SMP 매칭하여 저장
 - 잉여전력은 1일을 기준으로 계산한다. 생산한 전력을 자신이 모두 쓰고 남은 전력을 잉여전력으로 정의하여, '잉여전력량(remain) = 생산량(generation) - 소비량(consumption)'으로 계산한다. 
@@ -33,7 +36,7 @@
 - PW는 소비자의 사용전력량에 따른 누진제의 단위당 요금이다. 두 값의 평균을 구한다. 특히, PW를 고려하며 다음과 같은 이점을 얻는다.
 - PW는 사용전력량에 따라 요금을 다르게 두어 책임을 부과하는 누진제의 방식에서 비롯된다.
 ![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/4fca742d-8ebe-41a4-a049-8339c9d47d58)
-
+< 그림. 전력소비 예측 Brightics 그래프 (과거데이터로 각 id 마다 미래(주황색) 예측)>
 
 ## 2. 계시별 요금제 기반(Time Of Use; TOU)
 
@@ -41,13 +44,14 @@
 
 ### 2.1 주요 아이디어와 기능
 ![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/86ac5fc9-b63d-4d34-bd1d-47340660889a)
+< 그림. P2P 전력거래 비즈니스 모델 >
 
 #### 2.1.1 계시별 요금제 기반의 전력요금 부과
 - 누진제의 한계를 극복하기 위해 계시별 요금제를 도입하여 시간대별 전기 사용량에 따라 요금을 부과한다.
 - 이를 통해 피크시간대에 높은 전기요금을 부과하여 전기 소비 패턴을 유도할 수 있다.
 
 ![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/8ff8b3fe-99b8-4e52-8bdd-a59bf0c25338)
-
+< 그림. P2P 전력거래 비즈니스 모델 >
 #### 2.1.2 이웃 간 전력거래 시스템
 - 프로슈머는 잉여 전력을 판매할 가격과 양을 설정하고, 컨슈머는 자신의 우선순위에 따라 거래 요청을 보낼 수 있다.
 - 거래 요청은 프로슈머가 수락하거나 거절할 수 있다.
