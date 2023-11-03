@@ -1,5 +1,5 @@
-지속가능한 에너지 활용을 위한 인공지능경진대회
-https://www.youtube.com/watch?v=PCwi6EhicE0
+**지속가능한 에너지 활용을 위한 인공지능경진대회**  
+https://www.youtube.com/watch?v=PCwi6EhicE0  
 39:50 ~
 ## 1. 누진제 기반 요금제
 ### 1.1 아이디어 배경
