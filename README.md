@@ -1,11 +1,11 @@
 # SDS-Brightics
 
 ## [Smart Factory Semiconductor Process Optimization](https://github.com/rootofdata/SDS-Brightics/blob/main/Semiconductor%20optimization/README.md)
-#### **Background and Objectives**
+#### **Background and Objectives**. 
 - The objective of this project was to enhance anomaly detection performance in a smart factory setting, specifically focusing on optimizing semiconductor manufacturing processes.
 - The goal was to identify and predict defective products, thereby improving overall product quality.
-
-#### **Project Overview**
+  
+#### **Project Overview**. 
 - The project aimed to leverage the advantages of smart factories and the unique characteristics of semiconductor manufacturing processes.
 - Various comprehensive processes were undertaken to construct an anomaly detection model, with the ultimate aim of predicting defective products and implementing differentiated quality management strategies.
 
