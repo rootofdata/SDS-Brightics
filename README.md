@@ -56,6 +56,7 @@ Data Source: Utilize the 'Medical Cost Personal Datasets' from Kaggle's Open Dat
 ## [Weather Conditions](https://github.com/rootofdata/SDS-Brightics/blob/main/Weather%20Conditions/README.md)
 
 #### The goal is to investigate the impact of weather data on the postponement of D-DAY during World War II through data analysis and identify stable time periods.
+![download](https://github.com/rootofdata/SDS-Brightics/assets/86711374/f3462f52-c2f4-4df8-b7a3-ac90ba41e095)
 ### Main Objective
 - The objective of this project was to analyze weather data sourced from the 'Aerial Bombing Operations of World War Two' dataset.
 - The focus was on weather station locations and climate information recorded on specific dates.
