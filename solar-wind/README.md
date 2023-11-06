@@ -16,11 +16,11 @@ https://www.youtube.com/watch?v=PCwi6EhicE0
 
 ### 1.2 알고리즘 개요
 <p align="center">
- <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/af5fdc8f-d144-45c9-94a6-1c445396e562",width="500" height="250/">
+ <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/af5fdc8f-d144-45c9-94a6-1c445396e562">
 </p> 
 <누진제 기반 요금제 도식 설명>
 <p align="center">
- <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/c47b8419-03be-4415-87f4-9beb6e1d1e3f",width="500" height="250/">
+ <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/c47b8419-03be-4415-87f4-9beb6e1d1e3f">
 </p> 
 <누진제 기반 요금제 알고리즘>
 
