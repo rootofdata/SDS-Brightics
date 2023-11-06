@@ -136,17 +136,17 @@ Source: Data provided by 'THECHEAT' from the 'Smart Security Big Data Platform.'
 - Generate columns for multiple variables and fill the columns with 1 if applicable, and 0 otherwise (e.g., Name_0, Name_1, Name_2).
 
 #### Data Visualization for EDA Analysis
-- Analyze gender distribution among suspects, monthly financial fraud cases, age group-wise fraud cases, and prominent banks/financial institutions.
-**1. Gender:**
+- Analyze gender distribution among suspects, monthly financial fraud cases, age group-wise fraud cases, and prominent banks/financial institutions.  
+#### **1. Gender:**  
 - In the case of suspects (perpetrators), males account for approximately 80% of the total, indicating that males are significantly more involved in financial fraud-related activities.
-**2. Monthly Financial Fraud Cases:** 
+#### **2. Monthly Financial Fraud Cases:** 
 - In descending order, the months with the highest number of financial fraud cases are August, followed by September, July, and March.
 - The data shows a balanced distribution across months, indicating there is no significant imbalance.
 - Consequently, it can be inferred that financial fraud occurrences are not strongly correlated with specific months.
-**3. Financial Fraud Cases by Birth Year Range**
+#### **3. Financial Fraud Cases by Birth Year Range**
 - When categorized by birth year range (age groups), individuals born in the 2000s, specifically late teens to early twenties, experienced the highest number of financial fraud incidents.
 - Following this group, those born in the 1990s and 1980s had the next highest occurrences, in that order.
-**4. Bank Name / Bank Code**
+#### **4. Bank Name / Bank Code**
 - When examined by bank name (bank code), KakaoBank dominates, accounting for approximately 22% of the cases.
 - While the high prevalence of KakaoBank might be influenced by the large number of users, knowing the actual user counts could reveal which financial institutions are more susceptible to fraud.
 
