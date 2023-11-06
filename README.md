@@ -114,7 +114,7 @@ Source: Data provided by 'THECHEAT' from the 'Smart Security Big Data Platform.'
 - Unique ID / Birth Year Range / Metropolitan Area Name / Legal City or County Name / Registration Date
 #### Financial Fraud Victims' Gender and Location Data
 - Unique ID / Gender / Metropolitan Area Name / Legal City or County Name / Registration Date
-### Data Used in Financial Fraud - Securities / 1st Financial Sector
+#### Data Used in Financial Fraud - Securities / 1st Financial Sector
 - Unique ID / Bank Code (Securities Company Code) / Bank Name (Securities Company Name) / Legal City or County Name / Registration Date
 #### Financial Fraud Victims' Telecom Provider Data
 - Unique ID / Registration Date / Internet Service Provider
