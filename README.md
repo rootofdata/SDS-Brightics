@@ -99,14 +99,14 @@ Data Source: Utilize the 'Medical Cost Personal Datasets' from Kaggle's Open Dat
 
 
 ## [Financial Fraud Analysis](https://github.com/rootofdata/SDS-Brightics/blob/main/Financial%20Fraud%20Analysis/README.md)
-### 금융범죄의 심각성 및 현황 파악
+### Assessing the Severity and Current Status of Financial Crimes
 
 ### The purpose of the project
 **To prevent and proactively address financial fraud through Exploratory Data Analysis (EDA). The analysis aims to identify patterns through EDA and analyze financial fraud using 'Brightics.'**
 - With the increase in the opening and usage of financial accounts, the number of financial fraud cases and the associated losses have been rising.
 - Consequently, there is a growing concern about the severity of financial crimes. Efforts are being made to respond to financial fraud and mitigate its impact.
 
-### 분석 데이터
+### Data
 
 Date: January 2022 to September 2022
 Source: Data provided by 'THECHEAT' from the 'Smart Security Big Data Platform.'
