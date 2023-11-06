@@ -61,7 +61,7 @@ https://www.youtube.com/watch?v=PCwi6EhicE0
 - 누진제의 한계를 극복하기 위해 계시별 요금제를 도입하여 시간대별 전기 사용량에 따라 요금을 부과한다.
 - 이를 통해 피크시간대에 높은 전기요금을 부과하여 전기 소비 패턴을 유도할 수 있다.
 <p align="center">
- <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/8ff8b3fe-99b8-4e52-8bdd-a59bf0c25338",width="500" height="250/">
+ <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/8ff8b3fe-99b8-4e52-8bdd-a59bf0c25338">
 </p> 
 < 그림. P2P 전력거래 비즈니스 모델 >
 
@@ -86,15 +86,15 @@ https://www.youtube.com/watch?v=PCwi6EhicE0
 - 프로슈머는 거래 요청을 수락하거나 거절하고, 거래가 성사된 경우 프로슈머는 이익을 얻고, 컨슈머는 저렴한 가격에 전력을 구매한다.
 - 남은 소비량이 있는 경우 해당 부분에 대한 전기요금을 계산하여 부과한다.
 <p align="center">
- <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/bf3c3dbb-007b-4c0f-9fad-34e45c7c92e3",width="500" height="250/">
+ <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/bf3c3dbb-007b-4c0f-9fad-34e45c7c92e3">
 </p> 
 <그림. TOU 기반 요금 상계할 때 알고리즘>
 <p align="center">
- <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/3c01cd8b-ed6f-4734-8ef1-f96a5dfae86e",width="500" height="250/">
+ <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/3c01cd8b-ed6f-4734-8ef1-f96a5dfae86e">
 </p> 
 < 그림. TOU 기반 P2P 전력거래 알고리즘 >
 <p align="center">
- <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/1f4aba28-7043-4172-bcd0-96f45a872da9",width="500" height="250/">
+ <img src="https://github.com/rootofdata/SDS-Brightics/assets/86711374/1f4aba28-7043-4172-bcd0-96f45a872da9">
 </p> 
 < 그림. TOU 기반 P2P 전력거래 전기요금 알고리즘 >
 ### 2.3 결론
