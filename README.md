@@ -101,71 +101,73 @@ Data Source: Utilize the 'Medical Cost Personal Datasets' from Kaggle's Open Dat
 ## [Financial Fraud Analysis](https://github.com/rootofdata/SDS-Brightics/blob/main/Financial%20Fraud%20Analysis/README.md)
 ### 금융범죄의 심각성 및 현황 파악
 
-### 프로젝트 목적
-**금융사기를 방지하고 이에 사전에 방지하는 등 EDA를 통해 유형을 파악하며 데이터 분석을 통한 '브라이틱스를 통한 금융사기분석'**
-- 금융 계좌 개설 및 이용이 증가함에 따라 금융 사기에 대한 피해건수/피해액이 늘어나고 있다.
-- 이에 따라 금융범죄의 심각성이 대두되고 피해를 막고자 금융 사기에 대응하고 있는 추세다.
+### The purpose of the project
+**To prevent and proactively address financial fraud through Exploratory Data Analysis (EDA). The analysis aims to identify patterns through EDA and analyze financial fraud using 'Brightics.'**
+- With the increase in the opening and usage of financial accounts, the number of financial fraud cases and the associated losses have been rising.
+- Consequently, there is a growing concern about the severity of financial crimes. Efforts are being made to respond to financial fraud and mitigate its impact.
 
 ### 분석 데이터
 
-날짜 : 2022.01 ~ 2022.09
-데이터 : '스마트 치안 빅데이터 플랫폼'에서 'THECHEAT'이 제공한 데이터
-| 데이터 | 설명 | 컬럼명 |
-|---|---|---|
-| 금융사기 피해자의 연령대별 지역데이터 | 금융사기 피해자의 연령대와 지역을 집계한 데이터 | 고유번호 / 생년구간 / 광역시도명 / 법정시군구명 / 등록일시 |
-| 금융사기 피해자의 성별 지역데이터 | 금융사기 피해자의 성별과 지역을 집계한 데이터 | 고유번호 / 성별 / 광역시도명 / 법정시군구명 / 등록일시 |
-| 금융사기에 이용된 데이터_증권 /1금융권 | 금융사기에 이용된 일별 은행코드 (증권사코드), 은행명 (증권사명), 피해발생수를 집계한 데이터 | 고유번호 / 은행코드 (증권사코드) / 은행명 (증권사명) / 법정시군구명 / 등록일시 |
-| 금융사기 피해자 통신사 데이터 | 금융사기 피해자의 통신사를 집계한 데이터 | 고유번호 / 등록일시 / 자원인터넷서비스제공자 |
+Date: January 2022 to September 2022
+Source: Data provided by 'THECHEAT' from the 'Smart Security Big Data Platform.'
+#### Financial Fraud Victims' Age and Location Data
+- Unique ID / Birth Year Range / Metropolitan Area Name / Legal City or County Name / Registration Date
+#### Financial Fraud Victims' Gender and Location Data
+- Unique ID / Gender / Metropolitan Area Name / Legal City or County Name / Registration Date
+### Data Used in Financial Fraud - Securities / 1st Financial Sector
+- Unique ID / Bank Code (Securities Company Code) / Bank Name (Securities Company Name) / Legal City or County Name / Registration Date
+#### Financial Fraud Victims' Telecom Provider Data
+- Unique ID / Registration Date / Internet Service Provider
  
-### 전체 프로세스
+### Overall Process
 ![image](https://github.com/rootofdata/SDS-Brightics/assets/86711374/7f5198be-32b1-451f-a314-d564bdb383ff)
 
-#### 데이터 로드 및 결합
-
-- 데이터 로드 및 Join과 관련된 프로세스
-- Join 및 Distinct 함수 사용_ 연령/성별/통신사, 증권/1금융권
-
-### Encoder 전체 프로세스
+#### Data Loading and Combination
+- Load and join related processes.
+- Join and Distinct Functions Usage
+  - Age/Gender/Telecom, Securities/1st Financial Sector
+### Encoder Process
 #### Label Encoder
-- 여러 변수가 있더라도 일련의 숫자로 하여금 하나의 Column 내에서 처리
-- 이름_index로 Column을 만들고,김브스를 0, 서브스를 1, 최브스를 2로 분류
+- Convert multiple variables into numeric values within a single column.
+- For example, create an index named 'Name_index' and categorize 'Kim Bros' as 0, 'Seo Bros' as 1, and 'Choi Bros' as 2.
 #### Filter 
-- 광역시도별 / 자원인터넷서비스, OneHotEncoder를 위한 Filter로count 기준 상위 개수를 고려하여Filter를 통해 column에 해당할 변수를 선택
+- Filter based on the count of top variables for Metropolitan Area / Internet Service Provider, considering it for OneHotEncoder.
 #### OneHotEncoder
-- 여러 변수를 그 변수에 대한 Column들을 일일이 생성하여 처리
-- Column명을 이름_0, 이름_1, 이름_2 로 하여 이에 해당하면 1, 해당하지 않는다면 0으로 column을 채우는 방식
+- Generate columns for multiple variables and fill the columns with 1 if applicable, and 0 otherwise (e.g., Name_0, Name_1, Name_2).
 
-#### 데이터 시각화를 통한 EDA 분석
-**1. 성별**
-용의자 (가해자)의 성별 또한 남자가 80%에 달하는 수치로 금융사기와 관련된 성별은 남자가 훨씬 많다.
-**2. 월별 금융사기 건수** 
-- 가장 많았던 달 순으로는 8월 > 9월 > 7월 > 3월 순. 데이터의 불균형이 없다고 볼 정도로 균형있게 분포되어있음을 알 수 있다. 이로써 금융사기는 월과는 크게 상관이 없다는 것도 알 수 있다.
-**3. 생년구간별 금융사기 건수**
-- 생년구간(연령대)로 하였을 때, 금융사기와 관련된 피해자의 경우 ,00년대생 즉 10대 후반 혹은 20대 초반이 가장 많았고, 그 다음이 90년대생, 80년대생 순으로 많았습니다.
-**4. 은행명 / 은행코드**
-- 은행명 (은행코드)로 보았을 때, 카카오뱅크가 약 22%로 많은 부분을 차지하고 있다.
-- 은행과 금융의 이용자수가 많음도 있을 수 있겠지만,실제 이용자 수를 알 수 있다면 취약한 금융권이 어느 곳인지도 알 수 있다.
+#### Data Visualization for EDA Analysis
+- Analyze gender distribution among suspects, monthly financial fraud cases, age group-wise fraud cases, and prominent banks/financial institutions.
+**1. Gender:**
+- In the case of suspects (perpetrators), males account for approximately 80% of the total, indicating that males are significantly more involved in financial fraud-related activities.
+**2. Monthly Financial Fraud Cases:** 
+- In descending order, the months with the highest number of financial fraud cases are August, followed by September, July, and March.
+- The data shows a balanced distribution across months, indicating there is no significant imbalance.
+- Consequently, it can be inferred that financial fraud occurrences are not strongly correlated with specific months.
+**3. Financial Fraud Cases by Birth Year Range**
+- When categorized by birth year range (age groups), individuals born in the 2000s, specifically late teens to early twenties, experienced the highest number of financial fraud incidents.
+- Following this group, those born in the 1990s and 1980s had the next highest occurrences, in that order.
+**4. Bank Name / Bank Code**
+- When examined by bank name (bank code), KakaoBank dominates, accounting for approximately 22% of the cases.
+- While the high prevalence of KakaoBank might be influenced by the large number of users, knowing the actual user counts could reveal which financial institutions are more susceptible to fraud.
 
-### 모델링 프로세스
+### Modeling Process
 #### Classification Train
-- '은행명'을 Y변수로 하여 Split 시,'은행명'을 group by하여 나눠줌.
+- Use 'Bank Name' as the Y variable, split the data, and group 'Bank Name' by applying group by.
 #### Classification Predict
-- prediction을 probability로 측정하여 다중 분류로 구성 Suffle Type을 index로 설정
+- Measure predictions as probabilities for multi-class classification. Set Shuffle Type as index.
 #### Evaluate Classification
-- Accuracy와 F1 등 평가지표를 은행명과 prediction으로 비교
+- Compare metrics such as accuracy and F1 score between 'Bank Name' and predictions.
 
-### 결론_금융사기분석 & 기대효과
-#### 사회
-- 사회적으로 바라봤을 때 IT가 발전함에 따라 금융의 보안의 중요성이 대두된다.
-- 이에 따라 사회적으로 피해를 줄이고, 안정화시키기 위해 금융범죄의 유형을 분석하고 사전에 미리 예방할 수 있도록  돕기 위함이다.
-
-#### 기업
-- 기업적으로 바라봤을 때 각 은행별로 보안과 금융사기에 대한 예방을 철저히 하기 위함이다.
-- 비피해자의 데이터가 확보된다면 금융사기와 관련된 보험을 제시하거나 사전에 예방할 수 있는 상품을 개발하여 더욱 좋은 상품을 제공할 수 있다.
-
-#### 개인
-- 개인으로 바라봤을 때 자신과 비슷한 유형의 소비자가 어느 금융에서 많이 취약했는지를 알려줌으로써 개인적인 보안과 점검을 할 수 있도록 하기 위함이다.
-- 금융범죄에 대해 수치적으로 알려줌으로써 정보를 제공한다.
+### Conclusion - Financial Fraud Analysis & Expected Benefits
+#### Societal Impact
+- With the advancement of IT, the importance of financial security in society has increased.
+- This analysis aims to analyze types of financial crimes and prevent them in advance, contributing to reducing social harm and enhancing stability.
+#### Corporate Perspective
+- Each bank aims to strengthen security and prevent financial fraud.
+- By securing data from non-victims, banks can offer better products, such as insurance related to financial fraud or preventive measures.
+#### Individuals
+- Individuals can enhance their personal security by understanding which financial institutions are more vulnerable.
+- Providing numerical information about financial crimes enables the dissemination of knowledge, allowing individuals to take necessary precautions.
 
 ## solar-wind
 
