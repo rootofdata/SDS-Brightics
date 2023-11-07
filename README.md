@@ -41,7 +41,7 @@
 - Remove rows where negative values are present in any column.  
 - Identify outliers based on criteria: age: 100 years, children: 10, and remove corresponding rows.  
 - Apply One-Hot Encoding for necessary columns.  
-  
+    
 #### **3. Modeling:**  
 
 - Analyze the distribution of variables with Charges and select feature columns accordingly.  
