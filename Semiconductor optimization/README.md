@@ -38,11 +38,14 @@
 ### 추후연구    
      
 (1) 결측값 대치법  
-- 결측값 대치법에서 KNN Imputation 외에 MVNI, MICE 등을 사용한다면 더 나은 결과값을 도출할 수 있다.   
+- 결측값 대치법에서 KNN Imputation 외에 MVNI, MICE 등을 사용한다면 더 나은 결과값을 도출할 수 있다.
+
 (2) 하이퍼파라미터 최적화     
-- MLP의 파라미터 중 learning rate initial, Max Iteration, Tolerance,dropout 등을 조정하며 모델의 성능을 높일 수 있다.   
+- MLP의 파라미터 중 learning rate initial, Max Iteration, Tolerance,dropout 등을 조정하며 모델의 성능을 높일 수 있다.
+
 (3) 변수간 상호의존성 파악    
-- 공정 변수간 상관성 등 Feature learning 이나 feature engineering 등을 통하여 더 나은 예측모델을 구축할 수 있다.   
+- 공정 변수간 상관성 등 Feature learning 이나 feature engineering 등을 통하여 더 나은 예측모델을 구축할 수 있다.
+
 (4) 이상치 탐지       
 - etching 공정에서 화학 반응물 이용해서 over etch인지 아닌지 판단하는 프로세스를 구성할 수 있다.  
 
