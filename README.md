@@ -25,7 +25,7 @@
 #### **Conclusion**
 - This project achieved successful detection and prediction of defects in a smart factory environment. It is anticipated that these findings will significantly contribute to future optimization efforts in the manufacturing process.
 
-**remark** : https://www.brightics.ai/community/knowledge-sharing/detail/7098
+**Remark** : https://www.brightics.ai/community/knowledge-sharing/detail/7098
 
 ## Medical_Cost_Prediction
 
@@ -127,6 +127,7 @@ Source: Data provided by 'THECHEAT' from the 'Smart Security Big Data Platform.'
 - Join and Distinct Functions Usage
   - Age/Gender/Telecom, Securities/1st Financial Sector
 ### Encoder Process
+
 #### Label Encoder
 - Convert multiple variables into numeric values within a single column.
 - For example, create an index named 'Name_index' and categorize 'Kim Bros' as 0, 'Seo Bros' as 1, and 'Choi Bros' as 2.
