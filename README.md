@@ -170,7 +170,7 @@ Source: Data provided by 'THECHEAT' from the 'Smart Security Big Data Platform.'
 - Individuals can enhance their personal security by understanding which financial institutions are more vulnerable.
 - Providing numerical information about financial crimes enables the dissemination of knowledge, allowing individuals to take necessary precautions.
 
-## Solar Power / Wind Power Forecasting
+## [Solar Power / Wind Power Forecasting](https://github.com/rootofdata/SDS-Brightics/tree/main/solar-wind)
 
 ### Solar Power Forecasting:
 #### Forecast Data (solar_forecast_weather):
