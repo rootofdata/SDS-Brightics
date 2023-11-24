@@ -15,7 +15,7 @@
 
 #### **Modeling and Performance Evaluation**
 - After experimenting with multiple models, the Multilayer Perceptron (MLP) demonstrated superior performance. The MLP model was fine-tuned, leading to optimal results in testing as well.
-
+  
 #### **Results and Conclusion**
 - Visualization analysis clearly highlighted distinctions between acceptable and defective products. The implemented classification algorithms successfully detected defects in advance. There is potential to reduce the defect rate by introducing automated processes and additional inspections.
 
@@ -135,7 +135,7 @@ Source: Data provided by 'THECHEAT' from the 'Smart Security Big Data Platform.'
 - Filter based on the count of top variables for Metropolitan Area / Internet Service Provider, considering it for OneHotEncoder.
 #### OneHotEncoder
 - Generate columns for multiple variables and fill the columns with 1 if applicable, and 0 otherwise (e.g., Name_0, Name_1, Name_2).
-
+  
 #### Data Visualization for EDA Analysis
 - Analyze gender distribution among suspects, monthly financial fraud cases, age group-wise fraud cases, and prominent banks/financial institutions.  
 #### **1. Gender:**  
