@@ -151,7 +151,7 @@ Source: Data provided by 'THECHEAT' from the 'Smart Security Big Data Platform.'
 - When examined by bank name (bank code), KakaoBank dominates, accounting for approximately 22% of the cases.
 - While the high prevalence of KakaoBank might be influenced by the large number of users, knowing the actual user counts could reveal which financial institutions are more susceptible to fraud.
 
-### Modeling Process
+### Modeling Process. 
 #### Classification Train
 - Use 'Bank Name' as the Y variable, split the data, and group 'Bank Name' by applying group by.
 #### Classification Predict
