@@ -1,11 +1,11 @@
 # SDS-Brightics
 
 ## [Smart Factory Semiconductor Process Optimization](https://github.com/rootofdata/SDS-Brightics/blob/main/Semiconductor%20optimization/README.md)
-#### **Background and Objectives**. 
+#### **Background and Objectives**
 - The objective of this project was to enhance anomaly detection performance in a smart factory setting, specifically focusing on optimizing semiconductor manufacturing processes.
 - The goal was to identify and predict defective products, thereby improving overall product quality.
       
-#### **Project Overview**. 
+#### **Project Overview**
 - The project aimed to leverage the advantages of smart factories and the unique characteristics of semiconductor manufacturing processes.
 - Various comprehensive processes were undertaken to construct an anomaly detection model, with the ultimate aim of predicting defective products and implementing differentiated quality management strategies.
 
@@ -32,6 +32,7 @@
 #### **Title:** Predicting Personal Medical Expenses (Insurance) Project
 ![download (1)](https://github.com/rootofdata/SDS-Brightics/assets/86711374/952b6d2c-bb9d-429e-ad52-78f2a82996b6)
 #### **Overview:** In this analysis project, an individual-specific medical cost prediction model is constructed and evaluated by considering factors such as age, gender, obesity, number of childbirths, residence, and smoking status.  
+
 #### Purpose:  
 - Through predicting medical expenses based on social and physical individual information, individuals can forecast their medical costs, preventing overpayment and allowing them to pay corresponding insurance premiums directly. Additionally, insurance companies can understand trends in insurance cost changes and plan customized products accordingly.
 1. **Data Collection:** Follow the data collection path below (Kaggle dataset).  
